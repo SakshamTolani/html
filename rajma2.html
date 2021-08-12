@@ -1,0 +1,125 @@
+<!Doctype HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<title><h3>My Style Sheet</h3></title>
+<link rel="stylesheet" href="style.css" media="screen" title="main-style">
+<style>
+body{
+background-image:url('https://thumbs.dreamstime.com/b/halloween-background-full-moon-creepy-house-flying-bats-halloween-background-full-moon-creepy-house-125024932.jpg');
+}
+#nav ul{	
+		background-color:burlywood;
+		width:100%;
+		list-style:none;
+		padding:0px;
+		margin-left:0px;
+		display:flex;
+		justify-content:space-around;
+		height:50px;
+		font-size:30px;
+		line-height:40px;
+		}
+#nav ul li:hover{
+	background-color:chocolate;
+}
+#nav ul li a:link{
+	color:black;
+	text-decoration:none;
+	font-family:arial;
+}
+#ingredients{
+	border:1.5px solid black;
+	padding:0px;
+	margin-bottom:9px;
+	width:90%;
+	font-family:
+	display:flex;
+	clear:both;
+	background-color:hotpink;
+}
+#direction{
+	border:1.5px solid black;
+	width:90%;
+	margin-bottom:9px;
+	float:right;
+	line-height:30px;
+	padding-top:0px;
+	background-color:skyblue;
+	padding-left:0px;
+	border-left-width:0px;
+	position:relative;
+}
+body img {
+    border-radius: 10px;
+    width: 90%;
+    border: 2.5px solid #0c0000;
+}
+	#ingredients h4,#direction h4{
+		text-align:center;
+		margin-bottom:0px;
+		font-family:forte;
+	}
+	@media(max-width:400px){
+		body{
+			background-color:red;
+			font-size:24px;
+			color:black;
+		}
+		
+	}
+	@media(min-width:401px){
+		body{
+			font-size:28px;
+			background-color:purple;
+			color:burlywood;
+		}
+		
+	}
+	@media(max-width:750px){
+		font-size:28px;
+		background-color:purple;
+		color:burlywood;
+		
+	}
+	@media(min-width:750px){
+		body{
+			font-size:26px;
+			background-color:chocolate;
+			color:tomato;
+		}
+	}
+</style>
+</head>
+<body>
+<nav id="nav">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#direction">Directions</a></li>
+</ul>
+</nav>
+<section id="ingredients">
+<h4>Ingredients required</h4>
+<ul>
+<li>1 cup self-raising flour</li>
+<li>1/3 cup cocoa </li>
+<li>1 cup caster sugar</li>
+<li>1/3 cup butter </li>
+<li>1/2 cup milk</li>
+<li>2 eggs</li>
+</ul>
+</section>
+<div id="direction">
+<h4>Steps</h4>
+<ul>
+<li>Preheat oven to 180°C (160°C fan-forced). Grease and flour or line a 24cm cake tin and set aside.
+</li>
+<li>Place all ingredients into a bowl and using a mixer and mix on high for 4 minutes.</li>
+<li>Pour into cake tin and bake for 35-40 minutes or until the cake springs back when lightly touched in the centre.</li>
+</ul>
+</div>
+<img src="https://img.kidspot.com.au/fTInY6bg/w643-h428-cfill-q90/kk/2015/05/3635-500535-1.jpg">
+</body>
+</html>
